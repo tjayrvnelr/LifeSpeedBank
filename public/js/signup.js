@@ -26,5 +26,5 @@ document.getElementById('signupForm').addEventListener('submit', function(e) {
     // Placeholder for sign-up logic (e.g., API call to register user)
     alert('Sign-up successful!');
     // Redirect to sign-in or dashboard
-    window.location.href = 'signin.html';
+    window.location.href = 'pages/signin.html';
 });
