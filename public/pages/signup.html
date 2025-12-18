@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up - LifeSpeed Bank</title>
-    <link rel="stylesheet" href="/css/signup.css">
+    <link rel="stylesheet" href="/public/css/signup.css">
+    <link rel="icon" type="png/icon" href="/icon/myicon.png">
 </head>
 <body>
     <nav class="nav">
@@ -12,7 +13,7 @@
             <h1>LifeSpeed Bank</h1>
         </header>
         <div class="nav-links">
-            <a href="/index.html" class="pushable">
+            <a href="/public/index.html" class="pushable">
                 <span class="shadow"></span>
                 <span class="edge"></span>
                 <span class="front">Home</span>
@@ -32,28 +33,28 @@
             <div class="flex-column">
                 <label>Full Name</label>
                 <div class="inputForm">
-                    <input placeholder="Enter your full name" class="input" type="text" required>
+                    <input id="fullName" placeholder="Enter your full name" class="input" type="text" required>
                 </div>
             </div>
 
             <div class="flex-column">
                 <label>Email Address</label>
                 <div class="inputForm">
-                    <input placeholder="Enter your email" class="input" type="email" required>
+                    <input id="email" placeholder="Enter your email" class="input" type="email" required>
                 </div>
             </div>
 
             <div class="flex-column">
                 <label>Password</label>
                 <div class="inputForm">
-                    <input placeholder="Create a password" class="input" type="password" required minlength="8">
+                    <input id="password" placeholder="Create a password" class="input" type="password" required minlength="8">
                 </div>
             </div>
 
             <div class="flex-column">
                 <label>Confirm Password</label>
                 <div class="inputForm">
-                    <input placeholder="Confirm your password" class="input" type="password" required>
+                    <input id="confirmPassword" placeholder="Confirm your password" class="input" type="password" required>
                 </div>
             </div>
 
@@ -87,6 +88,6 @@
         </div>
     </footer>
 
-    <script src="/js/signup.js"></script>
+    <script src="/public/js/signup.js"></script>
 </body>
 </html>
